@@ -29,9 +29,9 @@
 <!--PC用（901px以上端末）メニュー-->
 <nav id="menubar">
 <ul>
-<li class="current"><a href="index.html">GGGGとは</a></li>
+<li><a href="index.html">GGGGとは</a></li>
 <li><a href="howto.html">遊び方</a></li>
-<li><a href="spec.html">仕様／攻略</a></li>
+<li class="current"><a href="spec.html">仕様／攻略</a></li>
 <li><a href="story.html">キャラ／ストーリー</a></li>
 <li><a href="credit.html">クレジット</a></li>
 </ul>
@@ -48,43 +48,65 @@
 </ul>
 </nav>
 
-<!--スライドショー-->
-<aside id="mainimg">
-<img src="images/1.jpg" alt="" class="slide0">
-<img src="images/1.jpg" alt="" class="slide1">
-<img src="images/2.jpg" alt="" class="slide2">
-<img src="images/3.jpg" alt="" class="slide3">
-</aside>
-
 <div id="contents">
 
 <div id="main">
 
 <section>
 
-<h2>はじめに</h2>
+<h2>ゲーム仕様</h2>
 
-<h3>Gold Guardian Gun Girl とは</h3>
-<p>Gold Guardian Gun Girl - ゴールドガーディアンガンガール - (以下、GGGG) とは、ぐっちゅん が個人で制作した同人ゲームです。<br>
-FC/FC互換機用/FCエミュレーターで遊ぶことを想定して制作しました。<br>
-このゲームについてのお問い合わせは、Twitterアカウント：<a href="https://twitter.com/good_tune">@good_tune</a> にてお願いいたします。</p>
-
-<h3>使用上の注意</h3>
-<ul class="disc">
-<li>このゲームは任天堂社のライセンス製品ではありません！</li>
-<li>FC/FC互換機/FCエミュレーター の種類によっては正常に動作しない可能性があります！</li>
-<li>このゲームの使用によりFC/PC等に不具合が生じても、当方では一切その責任を負いかねます！</li>
-<li>このゲームを Twitterアカウント：<a href="https://twitter.com/good_tune">@good_tune</a> の許可なくコピーして他人に渡したり、販売したりしないでください！</li>
-</ul>
+<h3>今後追記予定</h3>
+<p>今後追記予定
+</p>
 
 </section>
 
-<section id="new">
-<h2>更新情報・お知らせ</h2>
-<dl>
-<dt>2020/11/29</dt>
-<dd>デジゲー博2020 (秋葉原UDX) にて、v1.00 パッケージ版 を頒布。<span class="newicon">NEW</span></dd>
-</dl>
+<section>
+
+<h2>ゲーム攻略</h2>
+
+<h3>今後追記予定</h3>
+<p>今後追記予定</p>
+
+</section>
+
+<section>
+
+<h2>製品仕様</h2>
+
+<h3>マッパー</h3>
+<p>0 ( NROM互換 )</p>
+
+<h3>PRG ROM 容量</h3>
+<p>32 KB</p>
+
+<h3>CHR ROM 容量</h3>
+<p>8 KB</p>
+
+<h3>ミラーリング</h3>
+<p>水平</p>
+
+<h3>バッテリーバックアップ</h3>
+<p>なし</p>
+
+</section>
+
+<section>
+
+<h2>動作確認済環境</h2>
+<h3>FCエミュレーター</h3>
+<ul class="disc">
+<li>Mesen</li>
+<li>VirtuaNES</li>
+<li>Nestopia</li>
+</ul>
+<h3>FC互換機</h3>
+<ul class="disc">
+<li>8ビットポケット</li>
+<li>16ビットポケットHDMI＋FC用拡張コンバーター</li>
+</ul>
+
 </section>
 
 </div>
@@ -112,6 +134,9 @@ if (OCwindowWidth() <= 900) {
 	open_close("menubar_hdr", "menubar-s");
 }
 </script>
+
+<!--lightbox用jsファイルの読み込み-->
+<script src="js/lightbox-plus-jquery.min.js"></script>
 
 </body>
 </html>
